@@ -1,0 +1,307 @@
+<mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36" version="24.7.17">
+  <diagram name="第 1 页" id="EGSkwts6oHBCE8uo9idS">
+    <mxGraphModel dx="416" dy="271" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="7_UnlAsPNjWl3dfkwluL-1" value="&lt;font style=&quot;font-size: 21px;&quot; face=&quot;宋体&quot;&gt;基于多模型数据源的中国温室气体及大气污染物协同减排模拟与健康风险评估&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="10" width="730" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7_UnlAsPNjWl3dfkwluL-2" value="&lt;div&gt;&lt;div&gt;&lt;font size=&quot;3&quot; face=&quot;宋体&quot;&gt;四种代表性情景健康&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot; face=&quot;宋体&quot;&gt;风险评估&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="294" y="60" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="7_UnlAsPNjWl3dfkwluL-3" value="&lt;div&gt;&lt;font style=&quot;font-size: 16px;&quot; face=&quot;宋体&quot;&gt;协同减排情景健康&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot; style=&quot;&quot; face=&quot;宋体&quot;&gt;风险评估&lt;/font&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="60" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="7_UnlAsPNjWl3dfkwluL-4" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="7_UnlAsPNjWl3dfkwluL-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="270" as="sourcePoint" />
+            <mxPoint x="394" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7_UnlAsPNjWl3dfkwluL-5" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="7_UnlAsPNjWl3dfkwluL-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="270" as="sourcePoint" />
+            <mxPoint x="780" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7_UnlAsPNjWl3dfkwluL-7" value="&lt;p style=&quot;line-height: 120%;&quot;&gt;&lt;font face=&quot;Times New Roman&quot; size=&quot;3&quot;&gt;2015-2020&lt;/font&gt;&lt;font size=&quot;3&quot; face=&quot;宋体&quot;&gt;年中国&lt;/font&gt;&lt;font face=&quot;Times New Roman&quot; size=&quot;3&quot;&gt;1497&lt;/font&gt;&lt;font size=&quot;3&quot; face=&quot;宋体&quot;&gt;个地面监测站点大气污染物浓度数据、气象数据、社会经济数据、污染物和&lt;/font&gt;&lt;font face=&quot;Times New Roman&quot; size=&quot;3&quot;&gt;CO&lt;sub&gt;2&lt;/sub&gt;&lt;/font&gt;&lt;font size=&quot;3&quot; face=&quot;宋体&quot;&gt;排放量数据&lt;/font&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="301" y="180" width="186" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="7_UnlAsPNjWl3dfkwluL-8" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.522;entryY=-0.028;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="7_UnlAsPNjWl3dfkwluL-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="280" as="sourcePoint" />
+            <mxPoint x="400" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7_UnlAsPNjWl3dfkwluL-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="7_UnlAsPNjWl3dfkwluL-9" target="7_UnlAsPNjWl3dfkwluL-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7_UnlAsPNjWl3dfkwluL-9" value="&lt;font face=&quot;宋体&quot; size=&quot;3&quot;&gt;训练随机森林并使用&lt;/font&gt;&lt;font face=&quot;Times New Roman&quot; size=&quot;3&quot;&gt;2020&lt;/font&gt;&lt;font face=&quot;宋体&quot; size=&quot;3&quot;&gt;年数据验证随机森训练效果&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="301" y="310" width="189" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7_UnlAsPNjWl3dfkwluL-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="7_UnlAsPNjWl3dfkwluL-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="295" as="targetPoint" />
+            <mxPoint x="470" y="290" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7_UnlAsPNjWl3dfkwluL-10" value="&lt;font size=&quot;3&quot; face=&quot;宋体&quot;&gt;随机森林&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="270" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="7_UnlAsPNjWl3dfkwluL-13" value="&lt;p style=&quot;line-height: 150%;&quot;&gt;&lt;font size=&quot;3&quot; face=&quot;宋体&quot;&gt;四季&lt;/font&gt;&lt;font face=&quot;Times New Roman&quot; size=&quot;3&quot;&gt;PM&lt;sub&gt;2.5&lt;/sub&gt;&lt;/font&gt;&lt;font size=&quot;3&quot; face=&quot;宋体&quot;&gt;污染对&lt;/font&gt;&lt;font size=&quot;3&quot; face=&quot;宋体&quot;&gt;大气污染物浓度、气象因素、社会经济因素、污染物和&lt;/font&gt;&lt;font face=&quot;Times New Roman&quot; size=&quot;3&quot;&gt;CO&lt;sub&gt;2&lt;/sub&gt;&lt;/font&gt;&lt;font size=&quot;3&quot; face=&quot;宋体&quot;&gt;排放量因素偏依赖性及各因素重要性分析&lt;/font&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="220" width="140" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="7_UnlAsPNjWl3dfkwluL-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7_UnlAsPNjWl3dfkwluL-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="397" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7_UnlAsPNjWl3dfkwluL-14" value="&lt;p style=&quot;line-height: 140%;&quot;&gt;&lt;font face=&quot;Times New Roman&quot; size=&quot;3&quot;&gt;2025-2050&lt;/font&gt;&lt;font size=&quot;3&quot; face=&quot;宋体&quot;&gt;年中国&lt;/font&gt;&lt;font size=&quot;3&quot; face=&quot;宋体&quot;&gt;大气污染物浓度数据、气象数据、社会经济数据、污染物和&lt;/font&gt;&lt;font face=&quot;Times New Roman&quot; size=&quot;3&quot;&gt;CO&lt;sub&gt;2&lt;/sub&gt;&lt;/font&gt;&lt;font size=&quot;3&quot; face=&quot;宋体&quot;&gt;排放量数据&lt;/font&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="304" y="390" width="186" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7_UnlAsPNjWl3dfkwluL-21" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="529.13" y="500" as="sourcePoint" />
+            <mxPoint x="529.13" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7_UnlAsPNjWl3dfkwluL-22" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="530" y="500" as="sourcePoint" />
+            <mxPoint x="400" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7_UnlAsPNjWl3dfkwluL-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7_UnlAsPNjWl3dfkwluL-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="397" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7_UnlAsPNjWl3dfkwluL-23" value="&lt;font face=&quot;Times New Roman&quot; size=&quot;3&quot;&gt;2025、2030、2035、2040、2045、2050&lt;/font&gt;&lt;font size=&quot;3&quot; face=&quot;宋体&quot;&gt;年中国&lt;/font&gt;&lt;font face=&quot;Times New Roman&quot; size=&quot;3&quot;&gt;PM&lt;sub&gt;2.5&lt;/sub&gt;&lt;/font&gt;&lt;font size=&quot;3&quot; face=&quot;宋体&quot;&gt;浓度时空演化&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="304" y="530" width="186" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="7_UnlAsPNjWl3dfkwluL-26" value="&lt;font style=&quot;font-size: 16px;&quot; face=&quot;Times New Roman&quot;&gt;&lt;span style=&quot;&quot; lang=&quot;EN-US&quot;&gt;SSP1-RCP&lt;/span&gt;&lt;span style=&quot;&quot; lang=&quot;EN-US&quot;&gt;2.6-ECP&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;font-family: 宋体; font-size: 12pt;&quot;&gt;、&lt;/span&gt;&lt;div style=&quot;line-height: 180%;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot; face=&quot;Times New Roman&quot;&gt;SSP&lt;span style=&quot;&quot; lang=&quot;EN-US&quot;&gt;2-RCP&lt;/span&gt;&lt;span style=&quot;&quot; lang=&quot;EN-US&quot;&gt;4.5-ECP&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;font-family: 宋体; font-size: 12pt;&quot;&gt;、&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 180%;&quot;&gt;&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 16px;&quot;&gt;SSP&lt;span style=&quot;&quot; lang=&quot;EN-US&quot;&gt;3-RCP&lt;/span&gt;&lt;span style=&quot;&quot; lang=&quot;EN-US&quot;&gt;7.0-BAU&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;font-family: 宋体; font-size: 12pt;&quot;&gt;、&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 180%;&quot;&gt;&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 16px;&quot;&gt;SSP&lt;span style=&quot;&quot; lang=&quot;EN-US&quot;&gt;5-RCP&lt;/span&gt;&lt;span style=&quot;&quot; lang=&quot;EN-US&quot;&gt;8.5-BHE&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="95" y="460" width="190" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="7_UnlAsPNjWl3dfkwluL-27" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.997;exitY=0.18;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="7_UnlAsPNjWl3dfkwluL-26">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="560" as="sourcePoint" />
+            <mxPoint x="390" y="494" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7_UnlAsPNjWl3dfkwluL-81" value="&lt;font style=&quot;font-size: 16px;&quot; face=&quot;宋体&quot;&gt;情景&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7_UnlAsPNjWl3dfkwluL-27">
+          <mxGeometry x="-0.2899" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7_UnlAsPNjWl3dfkwluL-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="7_UnlAsPNjWl3dfkwluL-28" target="7_UnlAsPNjWl3dfkwluL-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7_UnlAsPNjWl3dfkwluL-28" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;font face=&quot;Times New Roman&quot;&gt;DPEC&lt;/font&gt;&lt;font face=&quot;宋体&quot;&gt;模型的&lt;/font&gt;&lt;font face=&quot;Times New Roman&quot;&gt;2025-2060&lt;/font&gt;&lt;font face=&quot;宋体&quot;&gt;年&lt;/font&gt;&lt;font face=&quot;Times New Roman&quot;&gt;PM&lt;/font&gt;&lt;sub style=&quot;font-family: &amp;quot;Times New Roman&amp;quot;;&quot;&gt;2.5&lt;/sub&gt;&lt;/span&gt;&lt;span style=&quot;font-family: 宋体; font-size: 16px; background-color: initial;&quot;&gt;排放量数据&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="200" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7_UnlAsPNjWl3dfkwluL-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7_UnlAsPNjWl3dfkwluL-32">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="242" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7_UnlAsPNjWl3dfkwluL-32" value="&lt;font style=&quot;font-size: 16px;&quot; face=&quot;宋体&quot;&gt;偏依赖分析&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="177" y="130" width="124" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="7_UnlAsPNjWl3dfkwluL-35" value="&lt;font style=&quot;font-size: 16px;&quot; face=&quot;宋体&quot;&gt;袋外样本置换重要性&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="85" y="380" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="7_UnlAsPNjWl3dfkwluL-37" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.782;exitY=0.262;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="7_UnlAsPNjWl3dfkwluL-35">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="450" y="310" as="sourcePoint" />
+            <mxPoint x="243" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7_UnlAsPNjWl3dfkwluL-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="7_UnlAsPNjWl3dfkwluL-38" target="7_UnlAsPNjWl3dfkwluL-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7_UnlAsPNjWl3dfkwluL-38" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;font face=&quot;Times New Roman&quot;&gt;CNCAP&lt;/font&gt;&lt;font face=&quot;宋体&quot;&gt;模型的&lt;/font&gt;&lt;font face=&quot;Times New Roman&quot;&gt;2025-2060&lt;/font&gt;&lt;font face=&quot;宋体&quot;&gt;年&lt;/font&gt;&lt;font face=&quot;Times New Roman&quot;&gt;PM2.5&lt;/font&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;font face=&quot;宋体&quot;&gt;浓度数据&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="810" y="200" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7_UnlAsPNjWl3dfkwluL-39" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="660" y="180" as="sourcePoint" />
+            <mxPoint x="900" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7_UnlAsPNjWl3dfkwluL-40" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="660" y="180" as="sourcePoint" />
+            <mxPoint x="660" y="198" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7_UnlAsPNjWl3dfkwluL-41" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.6;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="7_UnlAsPNjWl3dfkwluL-38">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="900" y="180" as="sourcePoint" />
+            <mxPoint x="920" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7_UnlAsPNjWl3dfkwluL-42" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;font face=&quot;Times New Roman&quot;&gt;PM&lt;sub&gt;2.5&lt;/sub&gt;&lt;/font&gt;&lt;font face=&quot;宋体&quot;&gt;排放量时空演化&lt;/font&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="320" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7_UnlAsPNjWl3dfkwluL-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7_UnlAsPNjWl3dfkwluL-44">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="885" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7_UnlAsPNjWl3dfkwluL-44" value="&lt;font style=&quot;font-size: 16px;&quot; face=&quot;Times New Roman&quot;&gt;2025、2030、2035、2040、2045、2050、2055、2060&lt;/font&gt;&lt;font face=&quot;宋体&quot; style=&quot;font-size: 16px;&quot;&gt;年&lt;/font&gt;&lt;font style=&quot;font-size: 16px;&quot; face=&quot;Times New Roman&quot;&gt;PM&lt;sub&gt;2.5&lt;/sub&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 16px;&quot; face=&quot;宋体&quot;&gt;浓度时空演化&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="810" y="320" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7_UnlAsPNjWl3dfkwluL-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7_UnlAsPNjWl3dfkwluL-46">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="880" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7_UnlAsPNjWl3dfkwluL-46" value="&lt;font size=&quot;3&quot; face=&quot;宋体&quot;&gt;综合暴露-响应模型&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="510" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7_UnlAsPNjWl3dfkwluL-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7_UnlAsPNjWl3dfkwluL-51">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="880" y="615" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7_UnlAsPNjWl3dfkwluL-51" value="&lt;font face=&quot;Times New Roman&quot; size=&quot;3&quot;&gt;2025-2060&lt;/font&gt;&lt;font size=&quot;3&quot; face=&quot;宋体&quot;&gt;年人口数量、性别比例、年龄结构、基线死亡率&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="525" y="585" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7_UnlAsPNjWl3dfkwluL-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7_UnlAsPNjWl3dfkwluL-53" target="7_UnlAsPNjWl3dfkwluL-58">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="890" y="790" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7_UnlAsPNjWl3dfkwluL-53" value="&lt;font size=&quot;3&quot; face=&quot;宋体&quot;&gt;2025-2060年归因死亡人数&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="810" y="640" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="7_UnlAsPNjWl3dfkwluL-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="7_UnlAsPNjWl3dfkwluL-54">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1010" y="400.0044827586207" as="sourcePoint" />
+            <mxPoint x="880" y="455" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7_UnlAsPNjWl3dfkwluL-83" value="&lt;font style=&quot;font-size: 16px;&quot; face=&quot;宋体&quot;&gt;情景&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7_UnlAsPNjWl3dfkwluL-56">
+          <mxGeometry x="-0.0227" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7_UnlAsPNjWl3dfkwluL-54" value="&lt;font style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 16px; font-family: 宋体;&quot;&gt;基准情景&lt;/span&gt;&lt;span style=&quot;font-size: 16px; font-family: 宋体;&quot;&gt;、清洁空气情景&lt;/span&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;、&lt;font face=&quot;宋体&quot;&gt;按时&lt;/font&gt;&lt;/span&gt;&lt;font style=&quot;font-size: 16px;&quot; face=&quot;宋体&quot;&gt;&lt;font style=&quot;&quot;&gt;达峰与清洁空气协同情景&lt;/font&gt;、&lt;/font&gt;&lt;span style=&quot;font-family: 宋体; font-size: 16px;&quot;&gt;按时&lt;/span&gt;&lt;font style=&quot;font-family: 宋体; font-size: 16px;&quot;&gt;达峰、碳中和与清洁空气协同情景&lt;/font&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="585" y="410" width="225" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="7_UnlAsPNjWl3dfkwluL-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7_UnlAsPNjWl3dfkwluL-58" target="7_UnlAsPNjWl3dfkwluL-61">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="890" y="910" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7_UnlAsPNjWl3dfkwluL-58" value="&lt;font size=&quot;3&quot; face=&quot;宋体&quot;&gt;不同地区、性别、年龄结构、健康终端归因死亡分析&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="800" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="7_UnlAsPNjWl3dfkwluL-61" value="&lt;font size=&quot;3&quot; face=&quot;宋体&quot;&gt;归因死亡驱动机制&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="810" y="910" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="7_UnlAsPNjWl3dfkwluL-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7_UnlAsPNjWl3dfkwluL-62">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="880" y="895" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7_UnlAsPNjWl3dfkwluL-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7_UnlAsPNjWl3dfkwluL-62">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="895" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7_UnlAsPNjWl3dfkwluL-62" value="&lt;font size=&quot;3&quot; face=&quot;宋体&quot;&gt;敏感性实验&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="850" width="230" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="7_UnlAsPNjWl3dfkwluL-66" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="7_UnlAsPNjWl3dfkwluL-46">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="510" y="540" as="sourcePoint" />
+            <mxPoint x="460" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7_UnlAsPNjWl3dfkwluL-67" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="510" y="629.5" as="sourcePoint" />
+            <mxPoint x="510" y="539.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7_UnlAsPNjWl3dfkwluL-69" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="630" as="sourcePoint" />
+            <mxPoint x="400" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7_UnlAsPNjWl3dfkwluL-70" value="&lt;font size=&quot;3&quot; face=&quot;宋体&quot;&gt;2025-2050年归因死亡人数&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="305.5" y="650" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="7_UnlAsPNjWl3dfkwluL-72" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="7_UnlAsPNjWl3dfkwluL-26">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="490" y="510" as="sourcePoint" />
+            <mxPoint x="190" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7_UnlAsPNjWl3dfkwluL-73" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190" y="690" as="sourcePoint" />
+            <mxPoint x="300" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7_UnlAsPNjWl3dfkwluL-82" value="&lt;font style=&quot;font-size: 16px;&quot; face=&quot;宋体&quot;&gt;情景&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7_UnlAsPNjWl3dfkwluL-73">
+          <mxGeometry x="-0.4198" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7_UnlAsPNjWl3dfkwluL-75" value="&lt;font size=&quot;3&quot; face=&quot;宋体&quot;&gt;不同地区、性别、年龄结构、健康终端归因死亡分析&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="307" y="780" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="7_UnlAsPNjWl3dfkwluL-77" value="&lt;font size=&quot;3&quot; face=&quot;宋体&quot;&gt;归因死亡驱动机制&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="910" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="7_UnlAsPNjWl3dfkwluL-79" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.49;entryY=-0.033;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="7_UnlAsPNjWl3dfkwluL-70" target="7_UnlAsPNjWl3dfkwluL-75">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="800" as="sourcePoint" />
+            <mxPoint x="460" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7_UnlAsPNjWl3dfkwluL-80" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.517;exitY=0.989;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="1" source="7_UnlAsPNjWl3dfkwluL-75" target="7_UnlAsPNjWl3dfkwluL-77">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="900" as="sourcePoint" />
+            <mxPoint x="460" y="850" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7_UnlAsPNjWl3dfkwluL-86" value="" style="endArrow=none;html=1;rounded=0;entryX=0.781;entryY=-0.016;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="7_UnlAsPNjWl3dfkwluL-54">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="760" y="240" as="sourcePoint" />
+            <mxPoint x="620" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7_UnlAsPNjWl3dfkwluL-91" value="&lt;font style=&quot;font-size: 16px;&quot; face=&quot;宋体&quot;&gt;情景&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7_UnlAsPNjWl3dfkwluL-86">
+          <mxGeometry x="0.0668" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7_UnlAsPNjWl3dfkwluL-87" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="7_UnlAsPNjWl3dfkwluL-38">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="760" y="240" as="sourcePoint" />
+            <mxPoint x="730" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7_UnlAsPNjWl3dfkwluL-88" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="7_UnlAsPNjWl3dfkwluL-28">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="760" y="240" as="sourcePoint" />
+            <mxPoint x="730" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7_UnlAsPNjWl3dfkwluL-90" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="7_UnlAsPNjWl3dfkwluL-51">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="630" as="sourcePoint" />
+            <mxPoint x="480" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
